@@ -20,7 +20,7 @@ public class MyController {
 	
 	@GetMapping("/home")
 	public String home() {
-		return "Welcome to courses application";
+		return "01 Welcome to courses application";
 	}
 	
 	//get the courses
