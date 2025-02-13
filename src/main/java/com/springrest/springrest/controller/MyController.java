@@ -20,7 +20,7 @@ public class MyController {
 	
 	@GetMapping("/home")
 	public String home() {
-		return "01 Welcome to courses application";
+		return "Welcome to courses application for practice using spring boot";
 	}
 	
 	//get the courses
